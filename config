@@ -1,0 +1,4 @@
+USER_AGENT=Mozilla/5.0 (XSS Hunter CLI)
+WEBHOOK_URL=https://xsshunter.example.com/trigger
+TOKEN=9af8cd97e13a4d95b55a0d4a67f29d3b
+MODE=aggressive
